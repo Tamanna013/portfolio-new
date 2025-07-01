@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^10.3.0",
     "@react-three/fiber": "^9.1.4",
     "@react-three/rapier": "^2.1.0",
     "@tailwindcss/vite": "^4.1.11",
     "cobe": "^0.6.4",
+    "emailjs": "^4.0.3",
     "framer-motion": "^12.19.2",
     "gsap": "^3.13.0",
     "meshline": "^3.3.1",

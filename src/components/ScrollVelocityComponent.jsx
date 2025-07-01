@@ -6,7 +6,7 @@ const ScrollVelocityComponent = () => {
         <ScrollVelocity
           texts={['Tamanna Shaw', 'Tamanna Shaw']}
           velocity={20}
-          className="custom-scroll-text text-lg text-white"
+          className="custom-scroll-text text-lg text-pink-300"
         />
     </div>
   )
