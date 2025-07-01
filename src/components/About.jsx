@@ -4,7 +4,7 @@ import Globe from "../constants/Globe";
 const About = () => {
   const grid2Container = useRef();
   return (
-    <section className="sm:px-10 px-5 lg:px-16 min-h-screen mt-20 md:mt-30 text-white" id="#about">
+    <section className="sm:px-10 px-5 lg:px-16 min-h-screen mt-20 md:mt-30 text-white" id="about">
       <h2 className="font-bold text-3xl md:text-4xl">
         About Me
       </h2>
