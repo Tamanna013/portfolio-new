@@ -4,25 +4,25 @@ const Certifications = () => {
       title: "The Complete 2024 Web Development Bootcamp",
       description:
         "Gained hands-on experience with HTML, CSS, JavaScript, Node.js, React, MongoDB, and backend APIs. Built multiple full-stack web applications.",
-      image: "/certificates/webdev.png",
+      image: "/c1.png",
     },
     {
       title: "Mastering Data Structures and Algorithms Using C/C++",
       description:
         "Deep understanding of time-space complexity, recursion, sorting, trees, graphs, dynamic programming. Focused on implementation and optimization.",
-      image: "/certificates/dsa.png",
+      image: "/c2.png",
     },
     {
       title: "Machine Learning & AI Bootcamp",
       description:
         "Covered supervised/unsupervised ML, deep learning, and AI intuition using Python, TensorFlow, and scikit-learn.",
-      image: "/certificates/ml.png",
+      image: "/c3.png",
     },
     {
       title: "Tata Group Data Analytics Job Simulation on Forage",
       description:
         "Completed a job simulation involving AI-powered data analytics and strategy development for the Financial Services team at Tata iQ.",
-      image: "/certificates/tata.png",
+      image: "/c4.png",
     },
   ];
 

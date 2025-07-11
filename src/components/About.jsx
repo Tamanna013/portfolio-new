@@ -14,7 +14,7 @@ const About = () => {
         <div className="flex items-end p-6 bg-gradient-to-b from-storm to-indigo rounded-2xl row-span-2 md:col-span-3 h-[15rem] md:h-full relative overflow-hidden hover:-translate-y-1 duration-200">
           <img className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-1/2 md: inset-y-10 lg:scale-[2.5]" />
           <div className="z-10">
-            <p className="mt-2 mb-2 text-xl">
+            <p className="mt-2 mb-2 text-xl text-pink-400">
               Hey, I'm Tamanna Shaw.
             </p>
             <p className="text-neutral-400 text-sm md:text-base text-pretty">
@@ -27,14 +27,14 @@ const About = () => {
         {/* Grid 2 */}
         <div className="p-6 bg-gradient-to-b from-black rounded-2xl row-span-1 md:col-span-3 h-[15rem] md:h-full relative overflow-hidden hover:-translate-y-1 duration-200">
           <div ref={grid2Container} className="flex items-center justify-center w-full h-full">
-            <p className="flex items-end text-5xl text-white">Full-stack development | Data science</p>
+            <p className="flex items-end text-5xl text-pink-400">Full-stack development | Data science</p>
           </div>
         </div>
 
         {/* Grid 3 */}
         <div className="row-span-1 md:col-span-3 h-[15rem] md:h-full relative overflow-hidden hover:-translate-y-1 duration-200 p-6 bg-gradient-to-tl from-black  rounded-2xl">
           <div className="z-10 w-[50%]">
-            <p className="mt-2 mb-2 text-xl">
+            <p className="mt-2 mb-2 text-pink-400 text-xl">
               Time Zone
             </p>
             <p className="text-neutral-400 text-sm md:text-base text-pretty">
