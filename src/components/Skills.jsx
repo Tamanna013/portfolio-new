@@ -19,7 +19,7 @@ const Skills = () => {
       id="skills"
       className="w-full py-20 px-6 md:px-12 text-white text-center"
     >
-      <h2 className="text-4xl font-bold mb-12">My Skill Set</h2>
+      <h2 className="text-4xl font-bold mb-12 text-pink-400">My Skill Set</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 justify-center">
         {/* Fullstack Skills */}

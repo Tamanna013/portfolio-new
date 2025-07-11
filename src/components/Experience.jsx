@@ -4,7 +4,7 @@ import Carousel from '../constants/Carousel';
 const Experience = () => {
   return (
     <section id="experience" className="w-full py-20 px-6 md:px-12 text-white">
-      <h2 className="text-4xl font-bold text-center mb-12">Experience</h2>
+      <h2 className="text-4xl font-bold text-center mb-12 text-pink-400">Experience</h2>
 
       <div className="flex justify-center">
         <div className="w-full rounded-xl overflow-hidden shadow-xl bg-gradient-to-br from-zinc-900 to-zinc-800">

@@ -53,7 +53,7 @@ const Projects = () => {
         <CircularGallery bend={3} textColor="#ffffff" borderRadius={0.05} />
       </div>
       <section id="projects" className="w-full py-20 px-6 md:px-12 text-white">
-      <h2 className="text-4xl font-bold text-center mb-16">Projects</h2>
+      <h2 className="text-4xl font-bold text-center mb-16 text-pink-400">Projects</h2>
 
       <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
         {projectData.map((project, index) => (

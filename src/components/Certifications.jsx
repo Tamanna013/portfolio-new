@@ -28,7 +28,7 @@ const Certifications = () => {
 
   return (
     <section id="certifications" className="w-full py-20 px-6 md:px-12 text-white">
-      <h2 className="text-4xl font-bold text-center mb-16">Certifications</h2>
+      <h2 className="text-4xl font-bold text-center mb-16 text-pink-400">Certifications</h2>
 
       <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-2">
         {certificationData.map((cert, index) => (

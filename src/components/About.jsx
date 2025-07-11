@@ -5,7 +5,7 @@ const About = () => {
   const grid2Container = useRef();
   return (
     <section className="sm:px-10 px-5 lg:px-16 min-h-screen mt-20 md:mt-30 text-white" id="about">
-      <h2 className="font-bold text-3xl md:text-4xl">
+      <h2 className="font-bold text-3xl md:text-4xl text-pink-400">
         About Me
       </h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">

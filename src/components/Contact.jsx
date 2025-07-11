@@ -3,7 +3,7 @@ const Contact = () => {
     <section id="contact" className="relative w-full py-20 px-6 md:px-12 text-white overflow-hidden">
 
       <div className="relative z-10 max-w-3xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-8">Let's Connect</h2>
+        <h2 className="text-4xl font-bold mb-8 text-pink-400">Let's Connect</h2>
         <p className="text-gray-300 text-lg mb-10">
           I'm always open to new opportunities and collaborations. Feel free to reach out!
         </p>
