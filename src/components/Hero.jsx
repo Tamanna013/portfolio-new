@@ -11,7 +11,7 @@ const Hero = () => {
             radius={100}
             duration={1.2}
             speed={0.5}
-            scrambleChars={"🌸 ❤️"}
+            scrambleChars={": )"}
           >
             Hey, I'm Tamanna Shaw.
             Full-stack developer | Data Science | AI-ML | UI-obsessed | Hackathon girlie

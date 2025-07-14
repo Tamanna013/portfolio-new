@@ -3,11 +3,17 @@ import AnimatedList from '../constants/AnimatedList';
 
 const Skills = () => {
   const fullstackSkills = [
-    'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Git', 'GitHub'
+    'JavaScript', 'TypeScript', 'Angular', 'React', 'Next.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Git', 'GitHub', 'HTML5', 'CSS3', 'JAVA', 'Python', 'C++', 'C#', 'PHP', 'SQL', 'REST APIs', 'C', 'Dart', 'jQuery', 'ThreeJS', 'Bootstrap', 'Material UI', 'Firebase', 'PostgreSQL', 'ShadCN', 'Vite', 'WordPress', 'Canva'
   ];
 
   const dataScienceSkills = [
-    'Python', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Scikit-Learn', 'TensorFlow', 'Keras', 'OpenCV', 'EDA', 'ML Algorithms'
+    'Python', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Scikit-Learn', 'TensorFlow', 'OpenCV', 'ML Algorithms', 'Implemented supervised ML algorithms: Linear Regression, Logistic Regression, SVM, Decision Trees, Random Forest, K-NN, Naive Bayes',
+    'Applied unsupervised learning techniques: K-Means, Hierarchical Clustering',
+    'Built association rule models using Apriori and Eclat algorithms',
+    'Performed natural language processing using Bag-of-Words and classification algorithms',
+    'Built deep learning models using Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN)',
+    'Optimized models using k-Fold Cross Validation, Grid Search, and XGBoost',
+    'Carried out comprehensive data preprocessing including encoding, scaling, and cleaning'
   ];
 
   const softSkills = [

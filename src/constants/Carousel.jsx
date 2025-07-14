@@ -1,6 +1,5 @@
 import { useEffect, useState, useRef } from "react";
 import { motion, useMotionValue, useTransform } from "framer-motion";
-// replace icons with your own if needed
 import { FiCode } from "react-icons/fi";
 
 const DEFAULT_ITEMS = [
@@ -11,45 +10,51 @@ const DEFAULT_ITEMS = [
     icon: <FiCode className="h-[16px] w-[16px] text-white" />,
   },
   {
+    title: "Selected for Flipkart Grid 7.0",
+    description: "Selected for the initial screening round of Flipkart Grid 7.0.",
+    id: 2,
+    icon: <FiCode className="h-[16px] w-[16px] text-white" />,
+  },
+  {
     title: "Selected for Summer of Bitcoin",
     description: "Selected for the initial screening round of Summer of Bitcoin 2025.",
-    id: 2,
+    id: 3,
     icon: <FiCode className="h-[16px] w-[16px] text-white" />,
   },
   {
     title: "M-Hash Hackathon",
     description: "Selected and Participated in the M-Hash Hackathon 2024 organised by Manipal Institute of Technology, Udupi.",
-    id: 3,
+    id: 4,
     icon: <FiCode className="h-[16px] w-[16px] text-white" />,
   },
   {
     title: "Goa Police Hackathon",
     description: "Selected and Participated in the Goa Police Hackathon 2024 organised by BITS Pilani, Goa Campus.",
-    id: 4,
+    id: 5,
     icon: <FiCode className="h-[16px] w-[16px] text-white" />,
   },
   {
     title: "Google Developer Student Club",
     description: "Selected as a core team member of Google Developer Student Club 2024.",
-    id: 5,
+    id: 6,
     icon: <FiCode className="h-[16px] w-[16px] text-white" />,
   },
   {
     title: "Inception Hackathon",
     description: "Selected and Participated in the Inception Hackathon 2024 organised by METAxSPIE in National Institute of Technology, Goa.",
-    id: 5,
+    id: 7,
     icon: <FiCode className="h-[16px] w-[16px] text-white" />,
   },
   {
     title: "300+ DSA Questions",
     description: "Solved 300+ DSA questions on LeetCode.",
-    id: 5,
+    id: 8,
     icon: <FiCode className="h-[16px] w-[16px] text-white" />,
   },
   {
     title: "SIH 24",
     description: "Selected at College level in Smart India Hackathon 2024.",
-    id: 5,
+    id: 9,
     icon: <FiCode className="h-[16px] w-[16px] text-white" />,
   },
 ];

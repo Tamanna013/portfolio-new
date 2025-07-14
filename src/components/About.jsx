@@ -12,7 +12,8 @@ const About = () => {
 
         {/* Grid 1 */}
         <div className="flex items-end p-6 bg-gradient-to-b from-storm to-indigo rounded-2xl row-span-2 md:col-span-3 h-[15rem] md:h-full relative overflow-hidden hover:-translate-y-1 duration-200">
-          <img className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-1/2 md: inset-y-10 lg:scale-[2.5]" />
+          <img src="/Tamanna.png" className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-1/2 md:inset-y-10 lg:scale-[2.5] filter grayscale brightness-50" />
+
           <div className="z-10">
             <p className="mt-2 mb-2 text-xl text-pink-400">
               Hey, I'm Tamanna Shaw.

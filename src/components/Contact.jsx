@@ -34,7 +34,7 @@ const Contact = () => {
             LeetCode
           </a>
           <a
-            href="https://www.instagram.com/tashxx._.xx/"
+            href="https://www.instagram.com/tashhxx._.xx/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-pink-400"
